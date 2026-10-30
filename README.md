@@ -1,53 +1,73 @@
-<h1 align="center">Hi, I'm Haikal Thoriq Athaya 👋</h1>
+<h1 align="center">Haikal Thoriq Athaya</h1>
 
-<p align="center"><strong>AI Engineering · Backend Systems · Data Products</strong></p>
-<p align="center">Informatics graduate working on evidence-grounded AI, applied machine learning, and software systems that are testable and maintainable.</p>
+<p align="center"><strong>AI engineering · Backend systems · Data applications</strong></p>
+
+<p align="center">I build retrieval systems for statistical documents, machine-learning applications, and backend tools for services I run myself. My recent work spans PDF processing, model evaluation, web apps, and self-hosted infrastructure.</p>
 
 <p align="center">
-  <a href="https://github.com/haikalthrq?tab=repositories"><img alt="GitHub repositories" src="https://img.shields.io/badge/Explore_Repositories-1F6FEB?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://website-podes-batu-2024.vercel.app"><img alt="Live PODES dashboard" src="https://img.shields.io/badge/Live_PODES_Dashboard-238636?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://github.com/haikalthrq?tab=repositories"><img alt="GitHub repositories" src="https://img.shields.io/badge/Repositories-1F6FEB?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://website-podes-batu-2024.vercel.app"><img alt="PODES Batu live demo" src="https://img.shields.io/badge/PODES_live_demo-238636?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="mailto:haikalthrq@gmail.com"><img alt="Email Haikal" src="https://img.shields.io/badge/Email-30363D?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
 ---
 
-## What I work on
+## Selected work
 
-- **Evidence-grounded AI:** document processing, retrieval evaluation, and traceable answers backed by source material.
-- **Applied machine learning:** NLP and computer-vision experiments with explicit evaluation methods.
-- **Backend & infrastructure:** APIs, automation, monitoring, deployment, and practical engineering trade-offs.
+### AI and data
 
-I prefer evaluating systems against evidence rather than relying on a promising demo.
+- **RINGKAS 2.0** *(private, in development)*. A bilingual system for answering questions from official Statistics Indonesia (BPS) publications. The work covers PDF ingestion, source citations, retrieval, and evaluation. The related **RINGKAS Benchmarks** compare parsing and chunking methods under controlled tests.
+- **[RAG Thesis](https://github.com/haikalthrq/RAG-Thesis)**. Compared three chunking methods for retrieving evidence from BPS documents, using Qwen3 embeddings, ChromaDB, and a 30-question evaluation set.
+- **[CoReer](https://github.com/haikalthrq/CoReer)**. A CV analysis and job-matching web app with NLP, similarity matching, and a neural-network component. Built with Python, Flask, Node.js, and TensorFlow.
+- **[PODES Batu 2024](https://github.com/haikalthrq/Website-PODES-Batu-2024)**. An interactive dashboard for village statistics, including maps, charts, and indicator filters. Built with React and Express. [Open the live dashboard](https://website-podes-batu-2024.vercel.app).
+- **[TripAdvisor Sentiment Analysis](https://github.com/haikalthrq/tripadvisor-sentiment-cicd-dagshub-testing)**. A team MLOps project using TF-IDF and logistic regression for hotel-review classification, with Gradio, Docker, and CI/CD.
 
-## Current work
+### Backend and infrastructure
 
-> These projects are in private repositories. The summaries below describe their scope, not completed or released products.
+- **[Monke-Bot](https://github.com/haikalthrq/Monke-Bot)**. A Discord control bot for self-hosted Valheim servers. It provides server status, health checks, and backups through restricted commands instead of giving Discord users shell access.
+- **[System Monitoring Dashboard](https://github.com/haikalthrq/System-Monitoring-Dashboard)**. Live CPU, memory, disk, network, process, and Docker monitoring on Windows and Linux, using Python's standard library and Server-Sent Events.
+- **[VPS-Agent](https://github.com/haikalthrq/VPS-Agent)**. Deployment scripts and configuration for running a Hermes agent on a Linux VPS with systemd, Discord access controls, and verification checks.
+- **[Workload Monitoring](https://github.com/haikalthrq/workload-monitoring-converted)**. A full-stack conversion to React, Express, and MongoDB, including dashboards, authentication, and role-specific views.
 
-### RINGKAS 2.0 — Statistical question answering
+### Game systems and developer tooling
 
-Developing a bilingual retrieval system grounded in official Statistics Indonesia (BPS) publications. Work includes document ingestion, source provenance, retrieval evaluation, and backend infrastructure. **Status: under implementation.**
+- **Project Antares** *(private, planning and validation)*. Systems design for a Roblox game, including session management, shared state, and staged testing before gameplay implementation.
+- **[Valheim Narrator](https://github.com/haikalthrq/Valheim-Narrator)**. A prototype for server-side game-event telemetry, with a BepInEx plugin foundation, a Python event-ingestion service, and SQLite persistence.
+- **[Roblox AI Skills: Codex adapter](https://github.com/haikalthrq/roblox-ai-skills)** *(fork of [SyphoDev's project](https://github.com/SyphoDev-yt/roblox-ai-skills))*. Adds a Codex installation and integration path to the original Claude Code Roblox skills.
+- **[Portable AI Skills](https://github.com/haikalthrq/ai-skill-portable)**. Scripts and documentation for backing up and restoring coding-agent skills and integrations across Codex, OpenCode, and Antigravity.
 
-### RINGKAS Benchmarks — Retrieval experiments
+<details>
+<summary><strong>More repositories</strong></summary>
 
-Comparing PDF parsing and chunking methods under controlled evaluation protocols for evidence retrieval. **Status: research and benchmarking; not a claim of production readiness.**
+#### Machine learning and analysis
 
-### Project Antares — Roblox game systems
+- [MNIST & CIFAR-10 Image Classifier](https://github.com/haikalthrq/MNIST-CIFAR10-Image-Classifier) · PyTorch CNN experiments
+- [Bike Sharing Analysis](https://github.com/haikalthrq/Bike-Sharing-Analysis) · exploratory analysis and Streamlit dashboard
+- [PODES Batu: Streamlit Dashboard](https://github.com/haikalthrq/Dashboard-PODES-Batu-2024) · Python, Pandas, Plotly
+- [MLOps CI/CD Practice](https://github.com/haikalthrq/mlops-ci-cd-practice) · GitHub Actions and Hugging Face Spaces
+- [House Price Prediction](https://github.com/haikalthrq/house-price-prediction)
 
-Designing the technical foundations for a Roblox game, including sessions, shared state, and verification gates. **Status: architecture, planning, and environment validation; gameplay implementation not yet established.**
+#### Apps and experiments
 
-### Valheim Narrator — Event telemetry prototype
+- [Cookie Tap Remaster](https://github.com/haikalthrq/Cookie-Tap-Remaster) · adapted from [risal098/cookie-tap](https://github.com/risal098/cookie-tap)
+- [Minecraft Host](https://github.com/haikalthrq/Minecraft-Host)
+- [revoU](https://github.com/haikalthrq/revoU)
+- [web-test](https://github.com/haikalthrq/web-test)
 
-Exploring a server-side telemetry and event-ingestion foundation for a potential game-event narrator. **Status: telemetry groundwork, not a finished AI narrator.**
+#### Forks and upstream projects
 
-## Selected public projects
+The following repositories are forks. Original authorship belongs to their respective upstream projects.
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[RAG Thesis](https://github.com/haikalthrq/RAG-Thesis)** | Research into retrieval-augmented generation over BPS publications; compares chunking strategies and evaluates retrieval. | Python, Qwen3, ChromaDB |
-| **[CoReer](https://github.com/haikalthrq/CoReer)** | CV analysis and job-matching application using NLP, similarity matching, and neural networks. | Python, Flask, Node.js, TensorFlow |
-| **[PODES Batu 2024](https://github.com/haikalthrq/Website-PODES-Batu-2024)** | Interactive village-statistics dashboard with filters, charts, and maps. **[Live demo](https://website-podes-batu-2024.vercel.app)** | React, Express, data visualization |
-| **[System Monitoring Dashboard](https://github.com/haikalthrq/System-Monitoring-Dashboard)** | Real-time Windows and Linux system monitoring with a standard-library Python backend. | Python, SSE, Docker |
+- [AI-Trader](https://github.com/haikalthrq/AI-Trader) · upstream: [HKUDS](https://github.com/HKUDS/AI-Trader)
+- [REA](https://github.com/haikalthrq/rea) · upstream: [morluto](https://github.com/morluto/rea)
+- [VibeWise](https://github.com/haikalthrq/vibe-wise) · upstream: [nykooi1](https://github.com/nykooi1/vibe-wise)
+- [Chat On Steroids](https://github.com/haikalthrq/chat-on-steroids) · upstream: [totec448-spec](https://github.com/totec448-spec/chat-on-steroids)
+- [OpenTTD Economy Patches](https://github.com/haikalthrq/OpenTTD-economy-patches) · upstream: [JGRennison](https://github.com/JGRennison/OpenTTD-patches)
+- [PyTorch Tutorial](https://github.com/haikalthrq/pytorch-tutorial) · upstream: [yunjey](https://github.com/yunjey/pytorch-tutorial)
 
-## Tech stack & tools
+</details>
+
+## Tools I use
 
 **Languages**
 
@@ -56,30 +76,29 @@ Exploring a server-side telemetry and event-ingestion foundation for a potential
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**AI & backend**
+**ML, backend and storage**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-30363D?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
 
-**Web & infrastructure**
+**Web and infrastructure**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-30363D?style=for-the-badge&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## GitHub activity
 
 ![GitHub activity summary](https://github-stats-extended.vercel.app/api?username=haikalthrq&show_icons=true&theme=github_dark&hide_border=true)
 
-![Most-used repository languages](https://github-stats-extended.vercel.app/api/top-langs/?username=haikalthrq&layout=compact&theme=github_dark&hide_border=true)
-
-<sub>Activity charts use a third-party image service. Availability and private-contribution coverage can vary.</sub>
+![Repository languages](https://github-stats-extended.vercel.app/api/top-langs/?username=haikalthrq&layout=compact&theme=github_dark&hide_border=true)
 
 ---
 
-[**Browse all public repositories**](https://github.com/haikalthrq?tab=repositories)
+[Browse all public repositories](https://github.com/haikalthrq?tab=repositories)
