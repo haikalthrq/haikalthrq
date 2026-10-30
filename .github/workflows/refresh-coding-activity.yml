@@ -20,6 +20,9 @@ jobs:
       - name: Check out profile
         uses: actions/checkout@v4
 
+      - name: Validate activity generator
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+
       - name: Generate aggregate chart from owned repositories
         env:
           CODING_ACTIVITY_TOKEN: ${{ secrets.CODING_ACTIVITY_TOKEN }}
