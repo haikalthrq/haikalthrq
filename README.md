@@ -85,9 +85,11 @@
 
 ## GitHub activity
 
-![GitHub activity summary](https://github-stats-extended.vercel.app/api?username=haikalthrq&show_icons=true&theme=github_dark&hide_border=true)
+![GitHub activity summary](https://github-stats-extended.vercel.app/api?username=haikalthrq&show_icons=true&theme=github_dark&hide_border=true&exclude_repo=house-price-prediction,revoU,web-test,pytorch-tutorial,MNIST-CIFAR10-Image-Classifier,web-testing,Predict-Failures-Project,Bike-Sharing-Analysis)
 
-![Repository languages](https://github-stats-extended.vercel.app/api/top-langs/?username=haikalthrq&layout=compact&theme=github_dark&hide_border=true)
+![Repository languages](https://github-stats-extended.vercel.app/api/top-langs/?username=haikalthrq&layout=compact&theme=github_dark&hide_border=true&exclude_repo=house-price-prediction,revoU,web-test,pytorch-tutorial,MNIST-CIFAR10-Image-Classifier,web-testing,Predict-Failures-Project,Bike-Sharing-Analysis)
+
+<sub>Language percentages exclude repositories created before 30 April 2025 (18-month age cutoff as of 31 October 2026). On the GitHub Stats card, the repository exclusion only applies to stars; commits, pull requests, issues and the C+ rank still describe account-wide activity. The cutoff list is static and needs updating as repositories age. [How the cards work](https://github-readme-stats-vercel.zcy.dev/frontend/docs/cards/stats/).</sub>
 
 ---
 
