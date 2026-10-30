@@ -54,16 +54,6 @@
 - [revoU](https://github.com/haikalthrq/revoU)
 - [web-test](https://github.com/haikalthrq/web-test)
 
-#### Forks and upstream projects
-
-The following repositories are forks. Original authorship belongs to their respective upstream projects.
-
-- [AI-Trader](https://github.com/haikalthrq/AI-Trader) · upstream: [HKUDS](https://github.com/HKUDS/AI-Trader)
-- [REA](https://github.com/haikalthrq/rea) · upstream: [morluto](https://github.com/morluto/rea)
-- [VibeWise](https://github.com/haikalthrq/vibe-wise) · upstream: [nykooi1](https://github.com/nykooi1/vibe-wise)
-- [Chat On Steroids](https://github.com/haikalthrq/chat-on-steroids) · upstream: [totec448-spec](https://github.com/totec448-spec/chat-on-steroids)
-- [OpenTTD Economy Patches](https://github.com/haikalthrq/OpenTTD-economy-patches) · upstream: [JGRennison](https://github.com/JGRennison/OpenTTD-patches)
-- [PyTorch Tutorial](https://github.com/haikalthrq/pytorch-tutorial) · upstream: [yunjey](https://github.com/yunjey/pytorch-tutorial)
 
 </details>
 
