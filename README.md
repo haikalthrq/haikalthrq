@@ -83,11 +83,11 @@
 ![Linux](https://img.shields.io/badge/Linux-30363D?style=for-the-badge&logo=linux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## GitHub activity
+## Coding activity
 
-![GitHub activity summary](https://github-stats-extended.vercel.app/api?username=haikalthrq&show_icons=true&theme=github_dark&hide_border=true)
+![Coding activity over the last 12 months](assets/coding-activity.svg)
 
-![Repository languages](https://github-stats-extended.vercel.app/api/top-langs/?username=haikalthrq&layout=compact&theme=github_dark&hide_border=true)
+<sub>This chart counts source files changed in my commits during the previous 12 months, including accessible public and private repositories. Notebook edits are tracked separately from Python scripts. Forks without original commits are excluded. [How this is measured](docs/CODING_ACTIVITY.md).</sub>
 
 ---
 
